@@ -1,0 +1,19 @@
+.toolbar {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 2rem;
+}
+
+.table {
+  width: 100%;
+  margin-top: 2rem;
+}
+
+.paginator {
+  display: flex;
+  align-items: center;
+}
+
+.paginator > * {
+  margin: 0 1rem;
+}
